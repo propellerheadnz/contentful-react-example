@@ -1,0 +1,5611 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "hero",
+        "type": "ContentType",
+        "createdAt": "2020-06-11T23:56:36.211Z",
+        "updatedAt": "2020-06-12T05:11:22.408Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2020-06-12T05:11:22.408Z",
+        "firstPublishedAt": "2020-06-11T23:56:36.970Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Hero",
+      "description": "Hero block for a page or section.",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "headline",
+          "name": "Headline",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "copy",
+          "name": "Copy",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "style",
+          "name": "Style",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "snippet",
+        "type": "ContentType",
+        "createdAt": "2020-06-12T04:08:11.204Z",
+        "updatedAt": "2020-06-12T05:11:24.583Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2020-06-12T05:11:24.583Z",
+        "firstPublishedAt": "2020-06-12T04:08:11.869Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Snippet",
+      "description": "A content \"snippet\" for general use.",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "copy",
+          "name": "Copy",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "layout",
+          "name": "Layout",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "Left",
+                "Right",
+                "Centred",
+                "Columns"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "style",
+          "name": "Style",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "actionTeaser",
+          "name": "Action Teaser",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "actionLabel",
+          "name": "Action Label",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "min": 3,
+                "max": 25
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "actionLink",
+          "name": "Action Link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "regexp": {
+                "pattern": "^(mailto:|https?:)?\\/?\\/?(\\w+:{0,1}\\w*@)?(\\S+)(:[0-9]+)?(\\/|\\/([\\w#!:.?+=&%@!\\-\\/]))?$",
+                "flags": null
+              },
+              "message": "Valid links should be URLs starting with \"/\", \"http(s)://\", or \"mailto:\""
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "profile",
+        "type": "ContentType",
+        "createdAt": "2020-06-12T04:08:11.209Z",
+        "updatedAt": "2020-06-12T05:11:22.760Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2020-06-12T05:11:22.760Z",
+        "firstPublishedAt": "2020-06-12T04:08:13.101Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Profile",
+      "description": "A person profile for use on the website ",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "picture",
+          "name": "Picture",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ],
+              "message": "Add a good quality picture for the profile"
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "summary",
+          "name": "Summary",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "bio",
+          "name": "Bio",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "resourceSet",
+        "type": "ContentType",
+        "createdAt": "2020-06-12T04:08:11.226Z",
+        "updatedAt": "2020-06-12T05:11:23.139Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2020-06-12T05:11:23.139Z",
+        "firstPublishedAt": "2020-06-12T04:08:13.479Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Resource Set",
+      "description": "A set of related microcopy resources",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "resources",
+          "name": "Resources",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "resource",
+                  "resourceSet"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "resource",
+        "type": "ContentType",
+        "createdAt": "2020-06-12T04:08:11.228Z",
+        "updatedAt": "2020-06-12T05:11:23.877Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2020-06-12T05:11:23.877Z",
+        "firstPublishedAt": "2020-06-12T04:08:14.053Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "displayField": "key",
+      "name": "Resource",
+      "description": "\"Microcopy\" content resource",
+      "fields": [
+        {
+          "id": "key",
+          "name": "Key",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            },
+            {
+              "regexp": {
+                "pattern": ".+\\..+",
+                "flags": null
+              },
+              "message": "Use the resource format \"category.name\"."
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "value",
+          "name": "Value",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "action",
+          "name": "Action",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "section",
+        "type": "ContentType",
+        "createdAt": "2020-06-12T04:08:11.476Z",
+        "updatedAt": "2020-06-12T05:11:22.042Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2020-06-12T05:11:22.042Z",
+        "firstPublishedAt": "2020-06-12T04:08:12.313Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Section",
+      "description": "A sub-section of a view.",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "introduction",
+          "name": "Introduction",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "blocks",
+          "name": "Blocks",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "article",
+                  "assembly",
+                  "hero",
+                  "profile",
+                  "snippet"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "style",
+          "name": "Style",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "article",
+        "type": "ContentType",
+        "createdAt": "2020-06-12T05:11:20.286Z",
+        "updatedAt": "2020-06-12T05:11:24.222Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-06-12T05:11:24.222Z",
+        "firstPublishedAt": "2020-06-12T05:11:24.222Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Article",
+      "description": "Articles for use on the site and publishing to Medium ",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "pullQuote",
+          "name": "Pull Quote",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 200
+              },
+              "message": "A pull quote should be a short summary of no more than 140 characters "
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "coverImage",
+          "name": "Cover Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "profile"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "body",
+          "name": "Body",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "media",
+          "name": "Media",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Asset"
+          }
+        },
+        {
+          "id": "tags",
+          "name": "Tags",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "assembly",
+        "type": "ContentType",
+        "createdAt": "2020-06-12T05:11:20.288Z",
+        "updatedAt": "2020-06-12T05:11:21.288Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-06-12T05:11:21.288Z",
+        "firstPublishedAt": "2020-06-12T05:11:21.288Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Assembly",
+      "description": "Assembly of components to create a view. Used to organise a view's content blocks.",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "blocks",
+          "name": "Blocks",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "article",
+                  "assembly",
+                  "hero",
+                  "profile",
+                  "section",
+                  "snippet"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "layout",
+          "name": "Layout",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "Grid"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "style",
+          "name": "Style",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "rzbl2ci9toyi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 8,
+        "createdAt": "2020-06-11T23:56:37.098Z",
+        "createdBy": {
+          "sys": {
+            "id": "7HrXscnUXEV66KWYMkCzZm",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-12T05:11:25.649Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "hero",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "The title content editors can use to identify an entry. It is not necessarily displayed in connected applications."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "headline",
+          "settings": {
+            "helpText": "The short, emphasised headline of this item. Optional."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "copy",
+          "settings": {
+            "helpText": "The main content of this item."
+          },
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "settings": {
+            "helpText": "An image to display with this item. Optional."
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "style",
+          "settings": {
+            "helpText": "An optional CSS background style that can be used to override the theme default"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "rzbl2ci9toyi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2020-06-12T04:08:11.974Z",
+        "createdBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-12T05:11:25.333Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "snippet",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "The title content editors can use to identify an entry. It is not necessarily displayed in connected applications."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "A unique identifier used for in-page bookmarking"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "copy",
+          "settings": {
+            "helpText": "The main content of this item."
+          },
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "settings": {
+            "helpText": "An image to display with this item. Optional."
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "layout",
+          "settings": {
+            "helpText": "Sets the layout direction for the snippet. "
+          },
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "style",
+          "settings": {
+            "helpText": "An optional CSS background style that can be used to override the theme default"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "actionTeaser",
+          "settings": {
+            "helpText": "An optional teaser question or sentence preceding the action"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "actionLabel",
+          "settings": {
+            "helpText": "An action (link or button) associated with the copy item. Optional"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "actionLink",
+          "settings": {
+            "helpText": "The link which to which the action directs users to."
+          },
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "rzbl2ci9toyi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2020-06-12T04:08:13.188Z",
+        "createdBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-12T05:11:25.702Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "profile",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "settings": {
+            "helpText": "Person's name"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "A unique identifier used to identify and display the profile"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "picture",
+          "settings": {
+            "helpText": "Profile picture"
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "Person's role or title within the organisation"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "summary",
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "bio",
+          "settings": {
+            "helpText": "Bio for the person"
+          },
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "rzbl2ci9toyi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2020-06-12T04:08:13.743Z",
+        "createdBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-12T05:11:25.710Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "resourceSet",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "resources",
+          "settings": {
+            "bulkEditing": false,
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "rzbl2ci9toyi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2020-06-12T04:08:14.136Z",
+        "createdBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-12T05:11:25.639Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "resource",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "key",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "value",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "action",
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "rzbl2ci9toyi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2020-06-12T04:08:12.418Z",
+        "createdBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-12T05:11:28.216Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "section",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "The title of the page. Used when rendering site pages and content editors when searching for an entry."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "A unique identifier used for in-page bookmarking"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "introduction",
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "blocks",
+          "settings": {
+            "bulkEditing": false
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "style",
+          "settings": {
+            "helpText": "An optional CSS background style that can be used to override the theme default"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "rzbl2ci9toyi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2020-06-12T05:11:24.305Z",
+        "createdBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-12T05:11:25.300Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "article",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "The article's title"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "A unique identifier used to identify and display the article"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "pullQuote",
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "coverImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "body",
+          "settings": {
+            "helpText": "The article body"
+          },
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "media",
+          "widgetId": "assetLinksEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "tags",
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "rzbl2ci9toyi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2020-06-12T05:11:21.378Z",
+        "createdBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-12T05:11:25.282Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1al4LgLAI2CjbKJ0kSMcLO",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "assembly",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "settings": {
+            "helpText": "Internal name used by content authors to identify an item"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "The title of the page. Used when rendering site pages and content editors when searching for an entry."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "An optional description of the assembly and its purpose."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "Auto-generated url-friendly unique identifier"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "blocks",
+          "settings": {
+            "bulkEditing": false
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "layout",
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "style",
+          "settings": {
+            "helpText": "An optional CSS background style that can be used to override the theme default"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "2kDHTvR486pVUuhjukvrR8",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:09.772Z",
+        "updatedAt": "2020-06-17T22:10:17.369Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2020-06-17T22:10:17.369Z",
+        "firstPublishedAt": "2020-06-12T05:12:57.790Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Decolonising Software Design"
+        },
+        "slug": {
+          "en-NZ": "decolonising-software-design"
+        },
+        "pullQuote": {
+          "en-NZ": "This blog is intended to be thought-provoking. To bring you on this journey towards decolonising design… a jumping off point for figuring out this brave new world together.\n"
+        },
+        "coverImage": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1i1Y7SxjG4tyfIyPN38gR6"
+            }
+          }
+        },
+        "author": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6SSlsrn6GbZqNvUiz1pwgx"
+            }
+          }
+        },
+        "body": {
+          "en-NZ": "The technology we unleash into the world undeniably shapes our present and our future. The time has come to be more nuanced and intentional about how we create our solutions, and the impact they will have.\nThis blog is intended to be thought-provoking. To bring you on this journey towards decolonising design… a jumping off point for figuring out this brave new world together.\nSoftware is becoming more and more ubiquitous to developing solutions in all areas of life. But the genesis of computer programming, user experience and user interface design has been born entirely out of Western design values, and emerged from the minds of white men. We’re all too familiar with the negative impact that this homogenous lens has had on the world around us. So, how can we pave a new way forward? How can we start to dismantle all the ways we’ve wronged people and our planet?\n“Decolonisation” is a word we’re increasingly hearing at design events.\n“Colonisation” is rooted in the oppression of groups of people for the benefit of another (for e.g. indigenous people and the dislocation of African communities for slavery) — specifically, the seizure of their resources, and the embedding of Western ideology, systems and politics.\nThe word “decolonisation” is described as the withdrawal of a state from a former colony. Decolonising design means to acknowledge that we’ve applied the Western dominant lens to understanding and creating the world around us. This has created systematic global human and environmental injustice, within a system of privilege and oppression.\nBy decolonising design, we have the opportunity to see and do things differently — using other modes of understanding and creating, from the perspective of other groups — unravelling the production of knowledge from one that’s been primarily Eurocentric.\nUnderstanding that the standards we are taught are not universal is key to decolonisation. It’s about shattering the familiar, and disrupting the status quo. In this article I’d like to offer you some food for thought, so that we can collectively be and do better in the software industry.\nHow have colonial histories affected design?\nDesigners are inspired and create solutions based on their taste for certain artifacts, and this taste is derived from what we’re exposed to.\nThe design values and history which are taught in the West are dominantly European, American, and produced by men. The work produced by non-Western cultures and those from poorer backgrounds are often classed as ‘craft’ rather than design. Classifying traditional craft as different from modern design deems their histories and practices of design as inferior.\nCentring Western conventions inevitably excludes everything else as “different” or “wrong”. When a homogenous group of people decide what’s “good”, it creates a force that pushes the majority of people to strive towards a similar style — having detrimental effects on the profession, and the people it serves.\nWe often think the work we do, especially in software design, is neutral, universal, and apolitical (it’s just maths and logic, isn’t it!?). But the decisions and choices we make are intrinsically political: with every choice we make, there’s the potential to exclude and oppress, and we can persuade an audience one way or another.\nMoving away from Western conventions\nTo begin moving away from Western conventions, I believe we need to start by rethinking the needs of the audience we’re designing for.\nHow might different groups of people identify with, and experience what you’re creating?\nIn Aotearoa, New Zealand, we have historically privileged the majority non-indigenous Pākehā culture (which is at odds with the bicultural status and foundations of our country). We are also guilty of being wedded to a Euro-American lineage (although this is shifting, more on this later). This has led to something of an identity crisis, both aesthetically and philosophically, to the detriment of Māori language and knowledge.\nFrom a kaupapa (principles or approach) Māori perspective, problem-solving needs to create an atmosphere that considers and includes different bodies of people and experience.\nWe’re often told to be objective bystanders within the design process — a built-in ‘distancing’ or separation between designer and user. This separation is a reflection of the social sciences that many empathetic research methods are extracted from. This is a false notion of objectivity from Western Science.\nIt also emerges from commercial imperatives that dictate timely delivery of projects, and products which meet brand guidelines, corporate mission statements, and customer requirements.\nA number of methods are used to stop designers from over-identification with customers, but still develop empathy. However, these fall short and can be tokenistic at best . Tools such as personas have come under scrutiny for being misused, or being fundamentally misleading by nature of the separation they uphold. Instead of genuinely connecting and understanding user needs, they create caricatures, and false stories.\nThese established formal methods for developing empathy and understanding are stipulated by our desire to ensure designed solutions align to real customers needs. We’re not purposely being malicious or negligent. But we’re not doing a good enough job. This means that even with these approaches, we’re still excluding and harming people.\nA decolonised approach asks us to blur the observer/participant dichotomy. Those of us who’ve done any human-centred or co-designed user research will know that it’s impossible not to be influenced and changed by these projects.\nThe empathiser steps in and out of the empathee’s life, the two interact and affect one another. Michael Brown’s work on decolonising Pākehā ways of being talks about a “third space”. A place which enables a transitional process where the designer migrates between an observer, to “designer as participant.” A space where we explicitly participate in bridging cultures, and acting within it.\nDoing our jobs well means accepting that this relationship may change our outlook. In the context of designing and developing our technology, our ideas will shift and evolve as our understanding of the problem does. By doing this we create emerging design outcomes that are culturally informed artifacts, which engage viewers and users with other identities. We’ll open up space to move towards advancing a deeper understanding, without commodification or misappropriation.\nMaking room for people with lived experience\nThere are situations where it will be almost impossible to do this, and we cannot begin to identify with the lived experiences of the audience we need to communicate with. It’s in these moments that we need to take ourselves out of the equation and make room for those who have a lived experience. If we don’t, we are likely to underserve, re-stigmatise and re-traumatise the people we’re trying to help.\nIn an industry like design and software, there’s a disparity between those who learn design and development, and those that get paid for the work. Therefore, taking yourself out of the equation can be an opportunity to ensure people from different backgrounds get a place in the industry. We need to create a space for designers and developers who explore outside the Western sphere, at the margins of mainstream discourse.\nThe whole is greater than the sum of its parts\nThanks for the tip, Aristotle. I believe this is the missing part in the discussions around decolonisation.\nWe’re often creating solutions in silos, without understanding how they operate within different contexts, and how the solution influences other moving parts.\nPut simply the reductionist design approach is no longer working… actually it never did work.\nIn complex systems the behaviour of the system differs from the simple addition of its parts (called “emergent behaviour”). In many instances, the whole can take on a life of its own, disconnected from the specific characteristics of its individual moving parts.\nIntuition might tell us that in order to understand the whole, we need to break it down into its component pieces. But that’s linear, Western thinking, and often falls short. Small changes in a complex system can cause sudden and large changes which cascade among the nodes, onto different parts of the whole.\nWhat can we learn from other cultures such as Japanese (seeing things in multiple dimensions), Zulus (circular design) and Maori (non-linear design)? How can we incorporate these other ways of thinking into understanding the systems in which our solutions operate within? What if we took the whole system into consideration before designing any solution? How would we model the interactions? How would that impact on the end result?\nIf we believe that the old ways of developing and designing are system failures, then small changes to our methods and the way we write code is not enough. We need to apply our minds to radically different processes and methods, novel systems that emerge to test new assumptions. At this point, it’s no longer a process improvement but a process revolution.\nWhat might decolonised design look like for Aotearoa? How can we set an example for the world to follow?\nI believe that we can be pioneers in decolonising design. Aotearoa is a small, connected, collaborative country. We’ve shown time and again that we are innovators by nature.\nThe world is watching and listening to us. We’re setting the precedent on what can be achieved. Just look at what we’ve achieved during this pandemic. Our Prime Minister and her cabinet are viewed as leaders in crisis management, not only how we’re coping with COVID19, but also the way they dealt with the Christchurch shootings.\nWe’re challenging our relationship with nature, to secure a healthy future for our environment, by thinking outside the box and giving legal personhood to our rivers and land.\nWe have some of the most well respected technology companies in the world- look at RocketLab, Soul Machines, Weta Digital, and Animation Research to name a few. The Be.Lab and Centre of Possibility are accelerating access innovations, to reframe and catalyse disability and accessibility into the globally networked realm of possibility. The Edmund Hillary Fellowship has brought to our shores some wonderful minds.\nAotearoa is the hub for building revolutionary, world changing ideas. More importantly, we’ve already started decolonising physical design.\nLast year the designs for the City Rail Link stations were released. It displayed a major shift — in which Māori design principles, sustainability, and new attitudes about ‘bicultural’ design can change the shape of our city. It’s been so revolutionary that it’s been internationally lauded, taking out top architectural design awards. These designs represent everything design should be: aspirational, functional, open and beautiful.\nThis success emerged from embedding Māori values, narratives, ways of thinking and doing into the forms and materials of the structures themselves. Up until now, artifacts of Māori culture and values were afterthoughts, merely added on as surface decorations.\nTe Aranga Māori Cultural Landscape Strategy posits seven principles (Māori Design Principles):\nMana: the status of iwi and hapū (Māori tribal groups) as mana whenua (people of the land) is recognised and respected\nWhakapapa: Māori names are celebrated\nTaiao: the natural environment is protected, restored and/or enhanced\nMauri Tu: Environmental health is protected, maintained and / or enhanced\nMahi Toi: Iwi/hapū narratives are captured and expressed creatively and appropriately\nTohu: Mana whenua significant sites and cultural landmarks are acknowledged​\nAhi kā: Iwi/hapū have a living and enduring presence and are secure and valued within their respective rohe\nThese principles were informed by core Māori values:\nRangatiratanga: The right to exercise authority and self-determination within one’s own iwi / hapū​ realm\nKaitiak​itanga: managing and conserving the environment as part of a reciprocal relationship, based on the Māori world view that we as humans are part of the natural world\nManaakitanga: the ethic of holistic hospitality whereby mana whenua have inherited obligations to be the best hosts they can be\nWairuatanga: the immutable spiritual connection between people and their environments\nKotahitanga: unity, cohesion and collaboration\nWhanaungatanga: a relationship through shared experiences and working together which provides people with a sense of belonging\nMātauranga: Māori / mana whenua knowledge and understanding\nSo my question here is, what might Maori design principles look like in software design?\nWhy is now the right time to do it?\nThe mantra we keep hearing in the realm of digital technologies is “the future is today.” But what is the future we want? Is now a time of new possibilities, of positive human evolution, and transformation? Are we ready to solve these major problems that we’re steeped in, and those that are hurtling towards us?\nWhether we like it or not, we are negatively impacted either consciously or unconsciously by inequality. In an increasingly connected world, there is no hiding from the knowledge of things going wrong. We’re becoming more aware of inequalities in access, and negative implications of design that aren’t user-driven (whether intentional or not).\nDigital solutions cut through all other industries: health, education, business, entertainment, banking, government, construction, environmental sustainability, farming — you name it. If we’re this influential, then we have a responsibility to change things for the better.\nWe’re in the age of intelligent algorithms and interfaces, used to make predictions and make decisions. Designers of AI often claim that their solutions are neutral and objective. The Plataforma Tecnológica de Intervención Social is an example of how technology can be exploited to support discriminatory public policies which threaten human rights. Their platform monitors and censors the sexual and reproductive rights of women.\nCities around the world employ algorithmic decision-making tools to determine the distribution of goods and services. This includes education, public health, policing and housing. We’re translating the lived experience of vulnerable people into machine-readable data, and making impressionable decisions based on their outputs.\nMathematician Cathy O’Neil notes that AI systems are based on models that are abstract representations and universalisations. They simplify complex realities where important information is excluded based on the judgment, goals and ideologies of their creators. They are anything but unbiased. What we value influences our choices — the questions we choose to ask impact on the data we think is important to collect.\nAnd here is where inclusion is critically important. If the technological solutions we develop are a reflection of the creators, then we need these diverse groups of people and perspectives to be embedded within the teams. To ignore this, is to create a narrow and privileged vision of society, with its old, familiar biases and stereotypes.\nMy final question here is, do we want to reinforce existing biases and discrimination that have led us to avoidable global human and environmental errors? The Māori proverb ‘Kia whakatomuri te haere ki mua; we walk backwards into the future, with our eyes fixed on the past’, connects to the non-linear Māori view of time and importance of looking to our past and to our ancestors for guidance. Let it be a metaphor about how the past can be used to reshape the future.\nHow to get the ball rolling…\nAt this point you’re probably thinking, OK, so what’s the “Design Thinking” or “Humans Centred Design” equivalent of decolonising design?\nThere aren’t any established methods and methodologies for decolonising design.\nI guess that’s the point, because we also need to reimagine what decolonised design methods would look like too — even Human Centred Design has come under scrutiny for further stigmatising the people it’s trying to help. We’re just not doing good enough. I’m not convinced that there is a blanket methodology and approach either — perhaps that thinking is perpetuating existing flaws.\nAhmed Ansari, an author of the decolonised design manifesto posits a number of questions to ask when designing new products and services.\nAnsari’s questions can be a good starting point, as we develop decolonisation processes together:\nWhat is the relation between technology or artifice, and culture?\nWhat is difference (sex, gender, race, ethnicity, class, faith, culture etc.)?\nHow deep is the difference? Is difference simply a matter of identifying and placing oneself in relation to other people, institutions etc.?\nIs it simply a product of power relations and conditioning? Or is difference deeper, fundamentally tied to our being in the world?\nAre certain kinds of difference more fundamental than others?\nDo different forms of difference shape and mold each other?\nWhat do we mean when we talk about forms of difference, in relation to the ways in which we think about ourselves, other people and beings, and the world at large?\nWhat does it mean to have a different perspective on the world if we think about the link between difference and how we perceive, sense, know, interpret and act in the world?\nDo different communities across the world share in the same worldly reality, i.e. is reality the same for all humans, or is it that we literally inhabit different realities depending on where we’re from?\nHow could we develop forms, practices, and theories of designing that are not borrowed from Anglo-European models, but are indigenous and local to their own communities?\nHow can we develop forms of culturally specific designing that are better equipped to understand and design for the nuances of their own cultures and societies?\nWhat could design theory learn from the knowledge systems of non Anglo-European cultures throughout history that thought and theorized about design, creativity, practice, craft, technology etc. differently?\nWhat would a decolonial politics mean in terms of how different peoples, with perhaps the greatest tensions lying between Anglo-Europeans and non-Anglo-Europeans (the ‘West’ and the ‘Rest’), are to work both separately and collectively to realise a fairer, juster, equitable world?\nCreating a Community of Practice\nResearching and writing this blog has brought up a lot for me — what has reading it brought up for you?\nOne of the most evident things for me is the need to create a community to keep the discussion going, to the point where we can start “doing”.\nWe’d like to create a collective to begin exploring this paradigm shift. Humans learn best when in relationship with others who share a common practice.\nCreating communities with those who have skills and knowledge that are important to us, will bring forth a rich marketplace where knowledge and experience are shared. It can also serve as an incubator where new knowledge, skills, and competencies develop.\nWill you join us?"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "w1pzKhddDBM6PoNqDQwA4",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:10.156Z",
+        "updatedAt": "2020-06-15T02:29:10.257Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 28,
+        "publishedAt": "2020-06-15T02:29:10.257Z",
+        "firstPublishedAt": "2020-06-12T05:12:22.484Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 10,
+        "version": 29,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "section"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Article Section"
+        },
+        "introduction": {
+          "en-NZ": "Some of propellerhead's new articles"
+        },
+        "blocks": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "41UadijmbpjdlClgqWs8Bq"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5ou5XDoTY4hVtVXc4WVLZr"
+              }
+            }
+          ]
+        },
+        "style": {
+          "en-NZ": "linear-gradient(90deg, #4A00E0 0%, #8E2DE2 100%)"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "2QVajDarWdk1aeH3OgBnby",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:10.284Z",
+        "updatedAt": "2020-06-12T05:12:22.087Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-06-12T05:12:22.087Z",
+        "firstPublishedAt": "2020-06-12T05:12:22.087Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resourceSet"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "footer"
+        },
+        "resources": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "47repwARHuGwd7Bwj73SGK"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1I5HrrXBrmUmCVxTH2cEeQ"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5k7o4Oneyc97l27OdUdPVI"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "24YKjzUC35EWFHQHxAeYEI",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:10.639Z",
+        "updatedAt": "2020-06-14T23:21:52.136Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2020-06-14T23:21:52.136Z",
+        "firstPublishedAt": "2020-06-12T05:12:21.663Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "assembly"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "Site Root"
+        },
+        "title": {
+          "en-NZ": "Site Root"
+        },
+        "slug": {
+          "en-NZ": "site-root"
+        },
+        "blocks": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3dmfUxW9Xg3YAUcCVkqUdX"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7qEzBAr293gO9r9s6pX7Mc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "3dmfUxW9Xg3YAUcCVkqUdX",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:10.641Z",
+        "updatedAt": "2020-06-12T05:12:22.850Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-06-12T05:12:22.850Z",
+        "firstPublishedAt": "2020-06-12T05:12:22.850Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "assembly"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "Page > Home"
+        },
+        "title": {
+          "en-NZ": "Home"
+        },
+        "slug": {
+          "en-NZ": "home"
+        },
+        "blocks": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3T9KhjwX2K226KAnwkc241"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "45aOmm2pcV8e2rFfSEPQQ4"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "414B6HziEFWWWTZybmpMmN"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "59116Zjr3bcEGHI6ExIbNn"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1EpllIQ4BohJ3z4Vrtfqki"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "w1pzKhddDBM6PoNqDQwA4"
+              }
+            }
+          ]
+        },
+        "style": {
+          "en-NZ": "linear-gradient(90deg, #4A00E0 0%, #8E2DE2 100%)"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "7qEzBAr293gO9r9s6pX7Mc",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:10.862Z",
+        "updatedAt": "2020-06-14T23:44:06.953Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2020-06-14T23:44:06.953Z",
+        "firstPublishedAt": "2020-06-12T05:12:23.262Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "assembly"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "Page > About"
+        },
+        "title": {
+          "en-NZ": "About"
+        },
+        "slug": {
+          "en-NZ": "about"
+        },
+        "blocks": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "zZPHSQIGah8ZTPtl6dBY9"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4dHZBvOmvBGQZraPSGh72P"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6OfUQ6JS2A1Na7YsbEUFVc"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "jn2P6lhT5htHJysZuF3Gq"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "jn2P6lhT5htHJysZuF3Gq",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:10.877Z",
+        "updatedAt": "2020-06-15T02:15:15.847Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2020-06-15T02:15:15.847Z",
+        "firstPublishedAt": "2020-06-12T05:12:23.661Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "section"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Our Team"
+        },
+        "blocks": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "79c8dJruC3LOlwFTi0amXW"
+              }
+            }
+          ]
+        },
+        "style": {
+          "en-NZ": "#8E2DE2"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "VNCOgXpGMd7LiJAsdtj5Q",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:11.217Z",
+        "updatedAt": "2020-06-15T01:05:36.224Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2020-06-15T01:05:36.224Z",
+        "firstPublishedAt": "2020-06-12T05:12:26.153Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Supporting Safe Travel With Real-Time Occupancy"
+        },
+        "slug": {
+          "en-NZ": "supporting-Safe-travel "
+        },
+        "pullQuote": {
+          "en-NZ": "In response to COVID-19, and the increasing need for passengers to make informed decisions about their safe travel."
+        },
+        "coverImage": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1c5tIy5VrIxdNDyW8Mlhrz"
+            }
+          }
+        },
+        "author": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5UG0nF6QpRGkUAC6djPSRQ"
+            }
+          }
+        },
+        "body": {
+          "en-NZ": "In response to COVID-19, and the increasing need for passengers to make informed decisions about their safe travel, Auckland Transport and software vendor Propellerhead have introduced real-time occupancy levels into the official Auckland Transport travel planning app AT Mobile. Passengers can see occupancy levels on a bus or train at any given time.\nAfter releasing the Live Occupancy feature in March, we’ve had interest from transport authorities from around the world. We’d like to share more around how Auckland Transport and Propellerhead have achieved this to help the global fight against COVID-19, and to provide info to other agencies who’d like to adopt similar measures.\nThis blog is from a whitepaper written by Propellerhead Technical Strategist Jan von Bargen, with support from Sophia Wong, Elyse Wyatt and Tammy Chee.\n\nAuckland City as seen from Devonport. Photography by Chris McLennan.\nSupporting Transport Across New Zealand’s Largest City\nIn Auckland, where 33.4% of New Zealand’s population lives, transport projects and services are run by Auckland Transport (AT). This council-controlled organisation of Auckland Council is responsible for all transport infrastructure (excluding state highways and railway tracks) and public transport. AT designs, builds and maintains roads, ferry wharves, cycleways and walkways; coordinates road safety and community transport initiatives; and it plans, coordinates and funds bus, train and ferry services.\nOver the last six weeks and at the height of the COVID-19 epidemic here, the New Zealand government restricted travel to only essential movements, allowing vital services (like supermarkets, pharmacies, clinics, petrol stations, and lifeline utilities) to operate.\nAT, like many other transport authorities around the world, is facing a unique challenge to continue to operate the public transport network during this crisis, and keeping its staff and passengers as safe as possible.\nTo help with this, AT introduced new maximum occupancy rules for public transport, asking passengers to retain 2 metres distance from each other. As passengers planned their journeys, however, it was impossible to tell if they’d be able to follow these guidelines upon boarding. It would also be difficult for drivers to note occupancy levels.\nThis provided an opportunity — AT began work on the Live Occupancy feature.\nThe Face of Real-Time Data: Command Centre\nAuckland Transport’s occupancy data, particularly for buses, has been available for several years.\nHowever, limitations on the extensibility of the used software meant that these figures have only been used for capacity planning — but not in real-time, and not made available to the public. Additionally, the raw numbers without the context, like available spaces, are not very useful; and the context hadn’t been readily accessible.\nNew software was built, named “Command Centre”, which allows operations and operators to monitor the public transport network in real-time (and historical), as well as publish arrival/departure predictions, changes to the network, and alerts to the public.\n\nThe Command Centre interface for operators.\nCommand Centre includes a real-time view of all public transport vehicles — and their occupancy.\nAs part of Command Centre, a new real-time event processing platform was developed — the “Datahub”. It ingests real-time data from various sensors across the network and translates the data into a common format that Command Centre, but also other consumers, can use.\nAT Mobile, Auckland Transport’s official travel-planning app, consumes data from the Datahub, first for real-time arrival/departure predictions, and now, for occupancy data.\n\nA user viewing AT Mobile.\nDisplaying occupancy data in AT Mobile has been discussed before. The challenge wasn’t a technical one — it was this question:\n“What are users going to do with occupancy information that was generated ten stops before they board the bus? It would have changed significantly by the time the bus arrives.”\nThe arrival of COVID-19 made providing occupancy data to travellers more urgent — and at the same time, with significantly reduced user numbers, predicting future occupancy is slightly less relevant.\nHow Data Is Generated\nMost passengers using public transport in Auckland use a smart-card based ticketing system called HOP. Developed by Thales, it allows passengers to load funds onto their HOP cards. The fare is deducted from the card when the customer “tags on/off” at the start and end of their journey.\n\nA person tagging onto public transport with their HOP card. Image courtesy Auckland Transport.\nAT has equipped each bus with card readers, which transmit the current difference between tag-on and tag-off in real-time over the 3G network, together with the bus position, the bus identification, and which trip the bus is running. This data forms the primary source of information for occupancy on buses.\nFor trains, the system is designed differently: card readers are positioned at each station. This approach still allows the correct fare to be determined but makes it harder to determine the occupancy for a specific train — or even per carriage.\nTo solve this, an APC (automatic passenger counting) solution by Dilax was installed, which counts passengers as they enter/exit through the doors. Similarly to buses, the APC solution transmits occupancy in real-time over the 3G network.\nFor ferries, the New Zealand Maritime Law requires captains to capture occupancy numbers. The integration with ship log management systems, and particularly the real-time aspect of it, are still under development.\nHow Data Is Processed\nThe “Datahub” ingests all data produced in real-time (occupancy, but also vehicle positions, start and end of trips, etc.) in their original data format. As part of the Command Centre software, a decision was made early on to use open standards for AT’s software. General Transit Feed Specification (GTFS) Realtime (RT), initially developed by Google and TriMet, was chosen as a data format internally — and also for public interfaces.\nGTFS RT describes changes to the transport network — like vehicles moving, arriving at stops, or new predictions about arrival/departure times becoming available — as “messages”. It also includes occupancy levels as part of its vehicle position update message. The Datahub transforms all incoming data into GTFS RT in its first processing stage.\nRaw occupancy numbers aren’t meaningful by themselves without context — as alluded to above. To get a view of the actual “fullness” level, the data is further combined with data from a fleet list, which contains the size and characteristics of each vehicle in use. This aggregation allows the platform to convert data like “20 passengers” in a double-decker bus to the valuable metric “Many Seats Available” — without getting distracted by too specific numbers, or occasionally occurring minor issues with counting.\nDatahub uses Apache Kafka as its transport mechanism for all messages, and a micro-service architecture to process messages. It processes real-time data from approximately 1500 buses, trains and ferries transporting customers at the same time — or about 150 “messages” per second. The platform is currently deployed to Microsoft’s Azure cloud environment — but is developed to be cloud-agnostic.\nShowing Live Occupancy To Users Through AT Mobile\nAT Mobile allows travellers to plan journeys across Auckland Transport’s public transport network, and view real-time information like departure time predictions as well as occupancy levels of departing buses, trains and ferries. Occupancy data is now displayed next to all departing services which have data available.\n\nDifferent views showing the Live Occupancy feature for Trains.\nOccupancy levels, allowing for 2 metres of distances, were adjusted. Usually, the threshold for (for example) “Many Seats Available” and “Few Seats Available” would stand at 40% and 90% of the seating capacity. During the epidemic, it has been reduced to 20% and 45%, respectively.\nThe Datahub publishes all real-time messages, and with it, occupancy data, as a stream of real-time data through HTTP web sockets.\nAT Mobile on average is used by more than 250,000 travellers each month, and accounts for more than 150,000 journey plans, and approx 1.5 million requests for departure information each day. It is implemented in React Native, and available both for iOS and Android-based mobile devices for free.\nMoving Forward\nThe live occupancy feature was able to be released to the public after just one week of development, keeping costs low for such a meaningful initiative. This quick release time was enabled by the robust yet agile infrastructure around it.\nThe approach AT has taken allows them to move quickly and present existing data in new, meaningful ways. As COVID-19 subsides, the same data can again be quickly reshaped to show relevant information as passenger numbers increase again.\nPropellerhead has worked closely with AT to make Command Centre, the Datahub, AT Mobile, and other AT software open and agile platforms to monitor and manage public transport. We are proud of our vision for this software — a multifunctional tool rather than a single-use application.\nThank you for reading! If you’re interested in finding out more about how we practice software development at Propellerhead, you can see more here."
+        },
+        "media": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1c5tIy5VrIxdNDyW8Mlhrz"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "5ou5XDoTY4hVtVXc4WVLZr",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:11.317Z",
+        "updatedAt": "2020-06-15T02:29:30.038Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2020-06-15T02:29:30.038Z",
+        "firstPublishedAt": "2020-06-12T05:12:27.108Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "assembly"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "Latest news"
+        },
+        "title": {
+          "en-NZ": "Latest news"
+        },
+        "slug": {
+          "en-NZ": "more-news-and-stories"
+        },
+        "blocks": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "VNCOgXpGMd7LiJAsdtj5Q"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7dFaHCPcINAxlL7IPf4k6N"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7gx1v6jToaf1x2fCEcDAaR"
+              }
+            }
+          ]
+        },
+        "layout": {
+          "en-NZ": "Grid"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "5dcBD1JwhB2JeAX8Ze8O11",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:11.345Z",
+        "updatedAt": "2020-06-12T05:12:27.515Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-06-12T05:12:27.515Z",
+        "firstPublishedAt": "2020-06-12T05:12:27.515Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "assembly"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "Events"
+        },
+        "title": {
+          "en-NZ": "Events"
+        },
+        "slug": {
+          "en-NZ": "events"
+        },
+        "blocks": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2kDHTvR486pVUuhjukvrR8"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3pY2j3QgfgvvM1rUJuOwi6"
+              }
+            }
+          ]
+        },
+        "layout": {
+          "en-NZ": "Grid"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "79c8dJruC3LOlwFTi0amXW",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:11.585Z",
+        "updatedAt": "2020-06-15T00:20:46.221Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2020-06-15T00:20:46.221Z",
+        "firstPublishedAt": "2020-06-12T05:12:28.690Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "assembly"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "Core Team"
+        },
+        "title": {
+          "en-NZ": " "
+        },
+        "slug": {
+          "en-NZ": "core-team"
+        },
+        "blocks": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5UG0nF6QpRGkUAC6djPSRQ"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6SSlsrn6GbZqNvUiz1pwgx"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "16cXSSyGt4LaZh2xGqZL0i"
+              }
+            }
+          ]
+        },
+        "layout": {
+          "en-NZ": "Grid"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "7dFaHCPcINAxlL7IPf4k6N",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:11.587Z",
+        "updatedAt": "2020-06-17T22:09:59.380Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 20,
+        "publishedAt": "2020-06-17T22:09:59.380Z",
+        "firstPublishedAt": "2020-06-12T05:12:27.901Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 21,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "A Recap of Our Digital Leadership Events"
+        },
+        "slug": {
+          "en-NZ": "digital-leadership"
+        },
+        "pullQuote": {
+          "en-NZ": "Be. Institute Chair, John Allen, speaks to Management magazine about what New Zealand's future might look like post Covid-19 and how we can support accessibility going forward."
+        },
+        "coverImage": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1CJQhOk2a7G1NaOUHiIunq"
+            }
+          }
+        },
+        "author": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5UG0nF6QpRGkUAC6djPSRQ"
+            }
+          }
+        },
+        "body": {
+          "en-NZ": "In 2019 we started a Digital Leadership event series, bringing together our clients and friends to hear the stories and challenges of company leaders, and to meet each other in a relaxed setting. Around 100 people from both startups and large Kiwi companies attended across the two events.\nCOVID-19 has put a spanner in the works, but we’d like to hold these physical events again sometime in the future, and expand our network to include more great people.\n\n## Using a formula\nAfter running a popular event series for a few years showcasing lots of Kiwi hardware companies, I decided to kick off these events using a similar format. What seems to work well is balancing interesting, relevant stories with credible speakers, quality refreshments and event space, and a diverse yet relevant audience.\n\nOne of the unique things about Propellerhead is our offices. Designed by one of New Zealand’s leading firms Jack McKinney Architects, they often surprise newcomers with their design quality. I’ve always wanted to host more events in the office, so being able to use this space was ideal. For refreshments, we provided platters and utilized sponsorships with quality suppliers like Chard Farm wines, East Imperial, Sawmill and Nakd water.\n\n## Speakers\nEach event saw three people speak about their journey, their roadmap moving forward, and what they think is the future for their industry. The audience could then ask questions.\n\n### Matthew Simmons, CEO & Founder of Nyriad\nSupercomputing company Nyriad is tackling the world’s increasing need for big data storage and fast processing speeds, by developing software that repurposes graphics cards (a technology originally focused on gaming) to store massive amounts of data quickly. They’ve attracted around $30m of investment so far.\nMattew spoke about his journey, Nyriad's unique location (Cambridge), some of the challenges around having so many graduates on the team, and what the future direction for Nyriad is.\n\n### Daniel Karehana, CEO & Founder of BlinkPay\nBlinkPay is a startup streamlining the bill-paying process. Unlike existing online banking options and biller platforms, BlinkPay will allow customers to manage bill payments directly within their online banking apps.\n\nDaniel Karehana and Rory MacGillycuddy from BlinkPay\nIntegrating directly with banks is a challenge never before achieved by an outside party in New Zealand, and Daniel spoke about his background, his long journey to get to this point with BlinkPay, his next steps, and what he hopes the platform will become.\n\n### Chris Creighton & Regine Deleu from Auckland Transport\nWe were lucky to have two people from Auckland Transport speak — Chris Creighton — Group Manager Business Technology Solutions, and Regine Deleu — GM of Digital Architecture.\nChris is part of the Business Technology Leadership Team, and works to deliver 100+ of Auckland Transport’s technology programmes and projects annually. Regine is new to Auckland Transport after an interesting career spanning New Zealand, USA and Europe, and she’s focusing on Auckland Transport’s digital architecture.\nThey spoke about some of the interesting initiatives AT has released, and some of the unique areas they’ll be focusing on in the coming months.\n\n### Lindsay Jopson — Engineering Manager at Movio\nMovio is the global leader in movie marketing data analytics and campaign management solutions for studios and cinemas. Their clients include Disney, Warner Brothers, Universal and Sony.\nLindsay spoke of the journey Movio has had, his role working across their engineering teams, and where he believes the future of the industry is headed.\n\n### Andrew Weston from Propellerhead\nI twisted Andrew's arm to speak and asked if he could demo one of our internal apps. Nicknamed “the Practice app”, it essentially pulls company data together and transparently displays it in a way that allows us to manage various parts of the business, in a completely decentralized fashion.\nSoon, we’ll be releasing more public info about the Practice App, as we believe it’s helpful enough to be of huge benefit to other organisations. More info soon!\n\n## Moving Forward\nI believe events such as this provide a nice opportunity to share knowledge, hear stories, and new meet people in a relaxed setting. We hope to bring more people together for Digital Leadership events in the future. If you’d like to receive an invite, you can drop me a line here.\n\nAttendees at one of our Digital Leadership events.\nThank you for reading! If you’re interested in finding out more about how we practice software development at Propellerhead, you can see more here.\nYou can take a look at my other stories here."
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "47repwARHuGwd7Bwj73SGK",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:11.677Z",
+        "updatedAt": "2020-06-15T02:03:39.083Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2020-06-15T02:03:39.083Z",
+        "firstPublishedAt": "2020-06-12T05:12:29.437Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resourceSet"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "footer.links"
+        },
+        "resources": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5CxvQK6ABYFxBrXYDvPFWM"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1mAKcIvOtIVqIRxtWIr0RM"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "731jBPppAIlGTnzr0rLh0H"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "5k7o4Oneyc97l27OdUdPVI",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:11.933Z",
+        "updatedAt": "2020-06-12T05:12:30.589Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-06-12T05:12:30.589Z",
+        "firstPublishedAt": "2020-06-12T05:12:30.589Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resourceSet"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "footer.contact"
+        },
+        "resources": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7f18dVSMdXeugwyyxxaOpz"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "58AkBbu9ciDizr5AHSLcaz"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4cC9gHZfOpNCXpSRQMips1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "1I5HrrXBrmUmCVxTH2cEeQ",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:11.935Z",
+        "updatedAt": "2020-06-15T02:00:39.449Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2020-06-15T02:00:39.449Z",
+        "firstPublishedAt": "2020-06-15T01:55:21.150Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resourceSet"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "footer.work-with-us"
+        },
+        "resources": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5k4HWe2rzbYLO0w7xPbxNy"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "BpONyiDCXzqb9WmiyE1HX"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "41UadijmbpjdlClgqWs8Bq",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:13.171Z",
+        "updatedAt": "2020-06-16T22:32:41.020Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 50,
+        "publishedAt": "2020-06-16T22:32:41.020Z",
+        "firstPublishedAt": "2020-06-12T05:12:25.734Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 51,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Brain-Computer Interfaces and Ice Age Squirrels: An Interview With Sarv Taherian"
+        },
+        "slug": {
+          "en-NZ": "an-interview-with-sarv"
+        },
+        "pullQuote": {
+          "en-NZ": "I’m interviewing people who help make Propellerhead tick. In this edition, I interview our Accessibility Advisor Sarvnaz Taherian. "
+        },
+        "coverImage": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7h0AF8XoswMn0dDo84fBNo"
+            }
+          }
+        },
+        "author": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5UG0nF6QpRGkUAC6djPSRQ"
+            }
+          }
+        },
+        "body": {
+          "en-NZ": "### So Sarv, where did you grow up?\nI was born in Iran, 10 weeks premature. My mum had a very stressful pregnancy with the war happening, and I had tried to self-abort twice, unsuccessfully.\nMy dad came to NZ on a business trip in the 80s and fell in love with the country — before that we were set to go to the US. Thank goodness that never happened! We moved here when I was 4 years old — mum, dad and older sister.\nI grew up in Glenfield, Auckland. I spent most of my childhood exploring our native bushes, and it’s still a massive source of happiness for me.\n\n### What’s your background?\nI was always a strange, clumsy kid, lost in my own world and often walking into things and completing tasks in unusual ways. I’ve never really grown out of these.\nTurns out I’m neurodiverse, which is a common thing amongst us premature kids. I have ADD, the inattentive side of the spectrum (as opposed to the hyperactive), and being a day-dreamer is a “symptom”, and dyspraxia, which used to be called “clumsy child syndrome”!\n\nI think because of the different ways in which my brain and body operate, and the prevalence of mental illness in my family, I was drawn to the field of psychology and studied it for 10 years. I initially wanted to be a clinical health psychologist, but by the time it came to my clinical year, I had doubts over my ability as a therapist. I was young, immature, and had very little life experience.\nThis led me to a gap year, where I co-founded a startup Thought-Wired, which catapulted me into the tech world. Thought-Wired builds a non-invasive universal brain-computer interface (BCI). This interface enables anyone to intuitively interact with any device using their mind.\n\nI never went back to finish my clinical training, and instead did a PhD on the technical and psychosocial elements of developing brain-computer interfaces (spurred by the product we wanted to build in Thought-Wired). I left my start-up in December 2019, after 8 years of blood, sweat, and tears.\nWhile I was studying I also taught health psychology and research methods at the University of Auckland, and worked on a variety of research projects around disability and health (with universities, government, and not-for-profits).\n\n> I’m always really interested in understanding why we think and behave in certain ways, but also the wider societal and systemic variables that affect how we live, think and perceive things.\n\n### What are you working on right now?\nI’m working with a few awesome organisations: Accessibility Advisor and a few other things at Propellerhead (YAY!), service design and codesign at Ara Manawa (ADHBs design studio), digital humans and conversational AI at Spark 64: AI agency (although that’s just finished up!). My current interests are around decolonising design and reimagining accessibility.\n\nI recently wrote an article on Decolonising Software Design — check it out.\nFor Propellerhead specifically, I am working on establishing our approach to understanding user needs for software development, so we can create delightful, inclusive and ethical experiences for our clients and their clients. This is a wonderful opportunity to think about how we can create something better for humanity. So much of our lives are entwined with the digital realm, and being thoughtful about how we design these experiences and systems has the potential to change peoples lives.\n\n### What do you like about working with us?\nPeople here are curious, open-minded and want to learn new and better ways of doing things. It’s a really encouraging and energizing environment (even when we’re virtual and remote atm). I also love that I am trusted to establish my roles and responsibilities, with feedback from the team. People here are generous with their time, and thoughtful and kind with their interactions.\n\n### What’s your focus for the next few months and years? What do you want to be working on?\nWhatever I work on, I hope that it is meaningful and impactful. It’s hard to measure these objectively and in such a short period of time.\n\n### What’s your media consumption or interaction like?\n- I love podcasts, in particular: Invisibillia, Radiolab, Story Collider, Ologies, Stuff to Blow Your Mind, 99% Invisible, Freakonomics and The Moth.\n- Spotify is where I go to for music — their algorithms know me too well.\n- Blogs: Barking Up the Wrong Tree, Farnam Street, Brain Pickings.\n- Videos: The School of Life and VSauce channels on YouTube.\n\n### What’s the most enjoyable part of your day?\nWaking up early to watch the sunrise or walking to work.\n\n### What about the least enjoyable?\nThe afternoon slump, it’s so hard to push through the brain fog and be productive.\n\n### Okay, if you had to be shipwrecked on a deserted island, but all your human needs — such as food and water — were taken care of, what two items would you want to have with you?\nMy husband and my phone, both come with infinite connection, communication and knowledge.\n\n### What was the last gift you gave someone?\nI bought some delicious french cakes for my friend who’s recently had a baby.\n\n### I better ask the hobby question — what are they?\nMusic, doodling, gardening, getting lost in nature… I’m quite boring to be honest!\n\n### If you could invite anyone to dinner, who would it be?\nEasy, the whimsical Paul Stamets. Also check out his awesome Ted Talk on how mushrooms can save the world.\n\n### If you could compare yourself with any animal, which would it be and why?\nThis is sadly really easy. Everyone says my looks and personality are identical to Scrat from Ice Age (including my love for nuts and seeds haha).\n"
+        },
+        "media": {
+          "en-NZ": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "5Cb02cTspguFpeKG8BNwlm"
+              }
+            }
+          ]
+        },
+        "tags": {
+          "en-NZ": [
+            "leadership"
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "5CxvQK6ABYFxBrXYDvPFWM",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:13.353Z",
+        "updatedAt": "2020-06-12T05:12:35.198Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-06-12T05:12:35.198Z",
+        "firstPublishedAt": "2020-06-12T05:12:35.198Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resource"
+          }
+        }
+      },
+      "fields": {
+        "key": {
+          "en-NZ": "footer.links.heading"
+        },
+        "value": {
+          "en-NZ": "Resources"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "5k4HWe2rzbYLO0w7xPbxNy",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:13.536Z",
+        "updatedAt": "2020-06-12T05:12:35.575Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-06-12T05:12:35.575Z",
+        "firstPublishedAt": "2020-06-12T05:12:35.575Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resource"
+          }
+        }
+      },
+      "fields": {
+        "key": {
+          "en-NZ": "footer.work-with-us.header"
+        },
+        "value": {
+          "en-NZ": "Work with us"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "7f18dVSMdXeugwyyxxaOpz",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:13.624Z",
+        "updatedAt": "2020-06-12T05:12:36.068Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-06-12T05:12:36.068Z",
+        "firstPublishedAt": "2020-06-12T05:12:36.068Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resource"
+          }
+        }
+      },
+      "fields": {
+        "key": {
+          "en-NZ": "footer.contact.heading"
+        },
+        "value": {
+          "en-NZ": "Contact"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "45aOmm2pcV8e2rFfSEPQQ4",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:14.535Z",
+        "updatedAt": "2020-06-17T03:08:38.377Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2020-06-17T03:08:38.377Z",
+        "firstPublishedAt": "2020-06-12T05:12:40.348Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "snippet"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "We are a Software and Technology partner"
+        },
+        "copy": {
+          "en-NZ": "We started Propellerhead in 2002 to change the way software services were delivered in New Zealand. Fast-forward a few years and we now work with some of our countries largest entities, building interesting and challenging technology, and helping to improve the lives of millions of New Zealanders every day."
+        },
+        "image": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7uPOXxfQzrrzdILMppDXm"
+            }
+          }
+        },
+        "layout": {
+          "en-NZ": "Left"
+        },
+        "actionLabel": {
+          "en-NZ": "More about us"
+        },
+        "actionLink": {
+          "en-NZ": "/about"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "5UG0nF6QpRGkUAC6djPSRQ",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:14.565Z",
+        "updatedAt": "2020-06-17T03:47:23.130Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 20,
+        "publishedAt": "2020-06-17T03:47:23.130Z",
+        "firstPublishedAt": "2020-06-12T05:12:41.914Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 21,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "profile"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "Andrew Weston"
+        },
+        "slug": {
+          "en-NZ": "fname-sname"
+        },
+        "picture": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2eRJtKzX6YlBwUfrp84oc9"
+            }
+          }
+        },
+        "title": {
+          "en-NZ": "CEO"
+        },
+        "summary": {
+          "en-NZ": "This is the company CEO"
+        },
+        "bio": {
+          "en-NZ": "Here's the intro of the CEO"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "1EpllIQ4BohJ3z4Vrtfqki",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:14.903Z",
+        "updatedAt": "2020-06-17T03:09:18.664Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2020-06-17T03:09:18.664Z",
+        "firstPublishedAt": "2020-06-12T05:12:43.699Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "snippet"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Our Hiring Process"
+        },
+        "copy": {
+          "en-NZ": "Our recruitment process often starts with a short video, so we can virtually \"meet\" you for the first time. This is followed by a set of assessments to augment the process of learning how you'd best fit. If you're a developer, you'll then complete a straightforward technical assessment, followed by a chat with one of our senior technical team to learn more about what you know, and how you make decisions. The last step is an in-person interview. We undertake a lot of overseas hiring and are an Accredited Employer with Immigration New Zealand. We are periodically in Europe and Asia to conduct final in-person interviews."
+        },
+        "image": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2kmPgasRGxllng8bpF578A"
+            }
+          }
+        },
+        "layout": {
+          "en-NZ": "Right"
+        },
+        "actionLabel": {
+          "en-NZ": "Learn more"
+        },
+        "actionLink": {
+          "en-NZ": "https://www.propellerhead.co.nz/people"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "59116Zjr3bcEGHI6ExIbNn",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:15.264Z",
+        "updatedAt": "2020-06-17T03:07:56.631Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2020-06-17T03:07:56.631Z",
+        "firstPublishedAt": "2020-06-12T05:12:42.659Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "snippet"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Our Clients"
+        },
+        "copy": {
+          "en-NZ": "Propellerhead designs, delivers and maintains large-scale digital platforms. Our clients include Auckland Transport, New Zealand Rugby, BlinkPay, Starship Children's Hospital, SkyBus, Dimension GRC, Spark, ESR, Ministry of Education, New Zealand Post, and Auckland Museum."
+        },
+        "image": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4X87C1lnAlpkhZ0fCl3EpW"
+            }
+          }
+        },
+        "layout": {
+          "en-NZ": "Left"
+        },
+        "actionLabel": {
+          "en-NZ": "Find out more"
+        },
+        "actionLink": {
+          "en-NZ": "https://www.propellerhead.co.nz"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "414B6HziEFWWWTZybmpMmN",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:15.276Z",
+        "updatedAt": "2020-06-17T03:46:20.394Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2020-06-17T03:46:20.394Z",
+        "firstPublishedAt": "2020-06-12T05:12:44.055Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "snippet"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Our Services"
+        },
+        "copy": {
+          "en-NZ": "We are a developer led organisation that likes hard problems that require new thinking and technology responses. We are focused on 'good outcomes quickly’ for our clients. We are a lean/agile development house and fully embrace these methodologies for our projects. We thrive on uncertainty and change. We hate waste and unnecessary lines of code."
+        },
+        "image": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "41MoTz9v4XxuaDvcl6yHYf"
+            }
+          }
+        },
+        "layout": {
+          "en-NZ": "Right"
+        },
+        "actionLabel": {
+          "en-NZ": "Visit Propellerhead"
+        },
+        "actionLink": {
+          "en-NZ": "https://www.propellerhead.co.nz/services"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "zZPHSQIGah8ZTPtl6dBY9",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:15.616Z",
+        "updatedAt": "2020-06-15T02:19:58.061Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2020-06-15T02:19:58.061Z",
+        "firstPublishedAt": "2020-06-12T05:12:44.871Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "About Us"
+        },
+        "headline": {
+          "en-NZ": "About Us"
+        },
+        "copy": {
+          "en-NZ": "We are dedicated to the powerful ideas that make the world a better place for our clients, their users, and our community."
+        },
+        "image": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4y5duIup2zi01SfEuLDqzH"
+            }
+          }
+        },
+        "style": {
+          "en-NZ": "linear-gradient(90deg, #4A00E0 0%, #8E2DE2 100%)"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "3T9KhjwX2K226KAnwkc241",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:15.625Z",
+        "updatedAt": "2020-06-15T02:34:03.757Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 28,
+        "publishedAt": "2020-06-15T02:34:03.757Z",
+        "firstPublishedAt": "2020-06-12T05:12:44.427Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 10,
+        "version": 29,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Home Hero"
+        },
+        "headline": {
+          "en-NZ": "Software to bring  good ideas to life"
+        },
+        "copy": {
+          "en-NZ": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        "image": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "75jP7SIZYT6UQLbOr5ToDG"
+            }
+          }
+        },
+        "style": {
+          "en-NZ": "linear-gradient(90deg, #4A00E0 0%, #8E2DE2 100%)"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "4dHZBvOmvBGQZraPSGh72P",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:15.962Z",
+        "updatedAt": "2020-06-15T02:28:36.000Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 14,
+        "publishedAt": "2020-06-15T02:28:36.000Z",
+        "firstPublishedAt": "2020-06-12T05:12:46.349Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 15,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "snippet"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Life at Propellerhead"
+        },
+        "slug": {
+          "en-NZ": "life-at-propellerhead"
+        },
+        "copy": {
+          "en-NZ": "We take great pride in what we do and provide structure and discipline around our modes of delivery. We know our modes are challenging for some clients but we also know most are looking for a different way of getting good value outcomes for their businesses sooner. We are less interested in your last title but we do value new ideas, diversity of skills, aptitude, attitude and a willingness to play nicely.\n\nOur typical client engagements are large-scale, but often start small. We concentrate on the right combination of methodology, architecture, technology, and operating model.\n\nWe believe software’s ‘natural state’ is live, in front of real users, and used for the purpose it is intended. The earlier we can deliver working software the sooner we are creating value. We are passionate advocates for open-source software, open data, and open ideas."
+        },
+        "layout": {
+          "en-NZ": "Centred"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "4cC9gHZfOpNCXpSRQMips1",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:16.054Z",
+        "updatedAt": "2020-06-15T01:53:33.894Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2020-06-15T01:53:33.894Z",
+        "firstPublishedAt": "2020-06-12T05:12:47.721Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resource"
+          }
+        }
+      },
+      "fields": {
+        "key": {
+          "en-NZ": "footer.contact.email"
+        },
+        "value": {
+          "en-NZ": "info@propellerhead.co.nz"
+        },
+        "action": {
+          "en-NZ": "mailto:info@propellerhead.co.nz"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "6OfUQ6JS2A1Na7YsbEUFVc",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:16.135Z",
+        "updatedAt": "2020-06-14T23:40:56.457Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2020-06-14T23:40:56.457Z",
+        "firstPublishedAt": "2020-06-12T05:12:48.900Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "snippet"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "What we believe"
+        },
+        "slug": {
+          "en-NZ": "what-we-believe"
+        },
+        "copy": {
+          "en-NZ": "__Our Belief__\n\nWe believe developers can be far more productive when given the freedom to lead in the process of crafting solutions. It is less about what they do and more about what they choose not to do when creating a great software solution.Everything we do is oriented towards stimulating creativity and unleashing the extraordinary developer within. Our approach is crafted to produce maximum value by providing the right conditions for innovative ideas to surface – stepping out of the way to allow developers to create outstanding results.\n\n__Value Based__\n\nWe take pride in designing, developing, and deploying great software. But our mission inspires us to be something more than just another software services company. We are at our best when we understand why – understanding the true value of what we are creating.\n\n__Open Ideas__\n\nWe believe in the power of “crowd-sourcing” – be it open source software, open data, or ideas. We are drawn towards ways of working and engaging that are generative, supporting emergent behaviour and ideas.\n\n__Small & Often__\n\nWe believe software’s “natural state” is live, in front of real users, used for the purpose it is intended. The earlier we can deliver working software the sooner we are creating value. Not only do we believe in delivering as soon as possible, we believe in delivering more frequently. We believe in building value incrementally, as we adapt and change based on user feedback.\n\n__Build the Right Thing__\n\nWhile “building the thing right” is important, we believe attention should be given to “building the right thing“. Building the wrong thing – not getting user feedback early and often – is the true failure. This means being quick to market – delivering in small increments in order to trial ideas early with real users. It also means seeking and acting on their feedback."
+        },
+        "layout": {
+          "en-NZ": "Columns"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "1mAKcIvOtIVqIRxtWIr0RM",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:16.306Z",
+        "updatedAt": "2020-06-15T02:01:46.767Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2020-06-15T02:01:46.767Z",
+        "firstPublishedAt": "2020-06-12T05:12:49.360Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resource"
+          }
+        }
+      },
+      "fields": {
+        "key": {
+          "en-NZ": "footer.links.about"
+        },
+        "value": {
+          "en-NZ": "About Propellerhead"
+        },
+        "action": {
+          "en-NZ": "https://www.propellerhead.co.nz/about"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "731jBPppAIlGTnzr0rLh0H",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:16.324Z",
+        "updatedAt": "2020-06-15T02:03:30.350Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2020-06-15T02:03:30.350Z",
+        "firstPublishedAt": "2020-06-12T05:12:49.836Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resource"
+          }
+        }
+      },
+      "fields": {
+        "key": {
+          "en-NZ": "footer.links.blog"
+        },
+        "value": {
+          "en-NZ": "Propellerhead Blog"
+        },
+        "action": {
+          "en-NZ": "https://medium.com/propellerhead"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "58AkBbu9ciDizr5AHSLcaz",
+        "type": "Entry",
+        "createdAt": "2020-06-12T05:12:16.398Z",
+        "updatedAt": "2020-06-15T01:54:13.193Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2020-06-15T01:54:13.193Z",
+        "firstPublishedAt": "2020-06-12T05:12:50.220Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resource"
+          }
+        }
+      },
+      "fields": {
+        "key": {
+          "en-NZ": "footer.contact.address"
+        },
+        "value": {
+          "en-NZ": "34 Drake St<br />Auckland City<br />New Zealand"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "6SSlsrn6GbZqNvUiz1pwgx",
+        "type": "Entry",
+        "createdAt": "2020-06-15T00:19:19.649Z",
+        "updatedAt": "2020-06-17T22:00:59.902Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2020-06-17T22:00:59.902Z",
+        "firstPublishedAt": "2020-06-15T00:19:33.065Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "profile"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "Yixuan Hou"
+        },
+        "slug": {
+          "en-NZ": "yixuan-hou"
+        },
+        "picture": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1j84F2t7lySaAtvJbvTBsR"
+            }
+          }
+        },
+        "title": {
+          "en-NZ": "Developer"
+        },
+        "summary": {
+          "en-NZ": "This is the company Developer"
+        },
+        "bio": {
+          "en-NZ": "Here's the intro of the developer"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "16cXSSyGt4LaZh2xGqZL0i",
+        "type": "Entry",
+        "createdAt": "2020-06-15T00:20:20.576Z",
+        "updatedAt": "2020-06-17T21:55:22.861Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2020-06-17T21:55:22.861Z",
+        "firstPublishedAt": "2020-06-15T00:20:28.738Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "profile"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-NZ": "Zachary Weston"
+        },
+        "slug": {
+          "en-NZ": "zachary-weston"
+        },
+        "picture": {
+          "en-NZ": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "hQkk0WCSR1Bbt0jHUT2TW"
+            }
+          }
+        },
+        "title": {
+          "en-NZ": "Intern"
+        },
+        "summary": {
+          "en-NZ": "This is the company Intern"
+        },
+        "bio": {
+          "en-NZ": "Here's the intro of the Intern"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "BpONyiDCXzqb9WmiyE1HX",
+        "type": "Entry",
+        "createdAt": "2020-06-15T01:58:06.543Z",
+        "updatedAt": "2020-06-15T02:00:24.355Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2020-06-15T02:00:24.355Z",
+        "firstPublishedAt": "2020-06-15T02:00:24.355Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "resource"
+          }
+        }
+      },
+      "fields": {
+        "key": {
+          "en-NZ": "footer.work-with-us.sofware-development"
+        },
+        "value": {
+          "en-NZ": "Software Development"
+        },
+        "action": {
+          "en-NZ": "https://www.propellerhead.co.nz/"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "4y5duIup2zi01SfEuLDqzH",
+        "type": "Asset",
+        "createdAt": "2020-06-12T04:08:18.465Z",
+        "updatedAt": "2020-06-12T05:11:55.172Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 14,
+        "publishedAt": "2020-06-12T05:11:55.172Z",
+        "firstPublishedAt": "2020-06-12T04:08:58.960Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 15,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "About Hero Image"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/4y5duIup2zi01SfEuLDqzH/4297004e8ebd6e8ff651bc24f3cc4ac5/About-us-header.png",
+            "details": {
+              "size": 36264,
+              "image": {
+                "width": 942,
+                "height": 667
+              }
+            },
+            "fileName": "About-us-header.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "1i1Y7SxjG4tyfIyPN38gR6",
+        "type": "Asset",
+        "createdAt": "2020-06-12T04:08:19.068Z",
+        "updatedAt": "2020-06-15T02:08:26.251Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2020-06-15T02:08:26.251Z",
+        "firstPublishedAt": "2020-06-12T04:09:00.881Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Decolonising Software Design"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/1i1Y7SxjG4tyfIyPN38gR6/380f9fca91ac57d0994176179220c975/1_-Gu_OllKzTnAOCuyoofsSw.jpeg",
+            "details": {
+              "size": 46619,
+              "image": {
+                "width": 2524,
+                "height": 1038
+              }
+            },
+            "fileName": "1*-Gu_OllKzTnAOCuyoofsSw.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "75jP7SIZYT6UQLbOr5ToDG",
+        "type": "Asset",
+        "createdAt": "2020-06-12T04:08:19.071Z",
+        "updatedAt": "2020-06-12T05:11:55.868Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 14,
+        "publishedAt": "2020-06-12T05:11:55.868Z",
+        "firstPublishedAt": "2020-06-12T04:08:59.577Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 15,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Hero Home"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/75jP7SIZYT6UQLbOr5ToDG/05cafd452dd6c88f60e34faf22f2023c/logo1.svg",
+            "details": {
+              "size": 27612,
+              "image": {
+                "width": 630,
+                "height": 525
+              }
+            },
+            "fileName": "logo1.svg",
+            "contentType": "image/svg+xml"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "1c5tIy5VrIxdNDyW8Mlhrz",
+        "type": "Asset",
+        "createdAt": "2020-06-12T04:08:19.376Z",
+        "updatedAt": "2020-06-15T01:03:43.450Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 20,
+        "publishedAt": "2020-06-15T01:03:43.450Z",
+        "firstPublishedAt": "2020-06-12T04:09:04.504Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 21,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "supporting-travel"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/1c5tIy5VrIxdNDyW8Mlhrz/c2b9280ee1f36564bae66b85876c5d6a/1_-rN7pZD_Gdg3A7jF8feFIA.jpg",
+            "details": {
+              "size": 154135,
+              "image": {
+                "width": 1280,
+                "height": 662
+              }
+            },
+            "fileName": "1_-rN7pZD_Gdg3A7jF8feFIA.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "1CJQhOk2a7G1NaOUHiIunq",
+        "type": "Asset",
+        "createdAt": "2020-06-12T04:08:21.882Z",
+        "updatedAt": "2020-06-15T01:16:57.871Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 20,
+        "publishedAt": "2020-06-15T01:16:57.871Z",
+        "firstPublishedAt": "2020-06-12T04:09:08.661Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 21,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "digital-leadership"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/1CJQhOk2a7G1NaOUHiIunq/1d47f08f2eb02ef8748d1b1e9ad73a71/1_FIv5pToD6MslD2ezgMbZMw.jpg",
+            "details": {
+              "size": 405479,
+              "image": {
+                "width": 2000,
+                "height": 1277
+              }
+            },
+            "fileName": "1_FIv5pToD6MslD2ezgMbZMw.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "7h0AF8XoswMn0dDo84fBNo",
+        "type": "Asset",
+        "createdAt": "2020-06-12T04:08:21.985Z",
+        "updatedAt": "2020-06-15T00:35:52.778Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 18,
+        "publishedAt": "2020-06-15T00:35:52.778Z",
+        "firstPublishedAt": "2020-06-12T04:09:08.969Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 19,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "blog-leadership-1"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/7h0AF8XoswMn0dDo84fBNo/cf6211163d0a43af565361ed8d3db91e/1_QvkPMiZnC7a3pWWOjhTl4w.jpg",
+            "details": {
+              "size": 401094,
+              "image": {
+                "width": 2000,
+                "height": 1333
+              }
+            },
+            "fileName": "1_QvkPMiZnC7a3pWWOjhTl4w.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "1fd4M4WBdkLXvBGbiBtByG",
+        "type": "Asset",
+        "createdAt": "2020-06-15T00:15:50.701Z",
+        "updatedAt": "2020-06-15T00:18:47.382Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2020-06-15T00:18:47.382Z",
+        "firstPublishedAt": "2020-06-15T00:16:08.271Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Profile image"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/1fd4M4WBdkLXvBGbiBtByG/f692e7b302db42af21e6443e868dad87/Screen_Shot_2020-06-15_at_12.18.31_PM.png",
+            "details": {
+              "size": 45286,
+              "image": {
+                "width": 368,
+                "height": 405
+              }
+            },
+            "fileName": "Screen Shot 2020-06-15 at 12.18.31 PM.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "4X87C1lnAlpkhZ0fCl3EpW",
+        "type": "Asset",
+        "createdAt": "2020-06-17T03:07:01.226Z",
+        "updatedAt": "2020-06-17T03:07:24.285Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2020-06-17T03:07:24.285Z",
+        "firstPublishedAt": "2020-06-17T03:07:24.285Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "clients"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/4X87C1lnAlpkhZ0fCl3EpW/3dd8657114b97c4384bc20816f974bee/clients.jpg",
+            "details": {
+              "size": 647917,
+              "image": {
+                "width": 3872,
+                "height": 2592
+              }
+            },
+            "fileName": "clients.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "2kmPgasRGxllng8bpF578A",
+        "type": "Asset",
+        "createdAt": "2020-06-17T03:07:01.232Z",
+        "updatedAt": "2020-06-17T03:07:24.271Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2020-06-17T03:07:24.271Z",
+        "firstPublishedAt": "2020-06-17T03:07:24.271Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Hiring"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/2kmPgasRGxllng8bpF578A/3aa44190884dfdd94517e3ad5aadc010/Hiring.jpg",
+            "details": {
+              "size": 3098382,
+              "image": {
+                "width": 7360,
+                "height": 4912
+              }
+            },
+            "fileName": "Hiring.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "7uPOXxfQzrrzdILMppDXm",
+        "type": "Asset",
+        "createdAt": "2020-06-17T03:07:01.232Z",
+        "updatedAt": "2020-06-17T03:07:24.288Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2020-06-17T03:07:24.288Z",
+        "firstPublishedAt": "2020-06-17T03:07:24.288Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "software & technology partner"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/7uPOXxfQzrrzdILMppDXm/eb896612060c5d6811bbada90d8b6c4a/software___technology_partner.jpg",
+            "details": {
+              "size": 2164121,
+              "image": {
+                "width": 5184,
+                "height": 3456
+              }
+            },
+            "fileName": "software & technology partner.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "41MoTz9v4XxuaDvcl6yHYf",
+        "type": "Asset",
+        "createdAt": "2020-06-17T03:07:01.537Z",
+        "updatedAt": "2020-06-17T03:07:24.280Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2020-06-17T03:07:24.280Z",
+        "firstPublishedAt": "2020-06-17T03:07:24.280Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Services"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/41MoTz9v4XxuaDvcl6yHYf/7f19100cb02cd1b4db16f6b4f4c646aa/Services.jpg",
+            "details": {
+              "size": 3463956,
+              "image": {
+                "width": 7360,
+                "height": 4912
+              }
+            },
+            "fileName": "Services.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "2eRJtKzX6YlBwUfrp84oc9",
+        "type": "Asset",
+        "createdAt": "2020-06-17T03:47:07.338Z",
+        "updatedAt": "2020-06-17T03:47:20.111Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2020-06-17T03:47:20.111Z",
+        "firstPublishedAt": "2020-06-17T03:47:20.111Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "andrew weston"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/2eRJtKzX6YlBwUfrp84oc9/d616c7ba3d9c6cac583c0c434b3fbaee/andrew_weston.jpg",
+            "details": {
+              "size": 63627,
+              "image": {
+                "width": 689,
+                "height": 427
+              }
+            },
+            "fileName": "andrew weston.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "hQkk0WCSR1Bbt0jHUT2TW",
+        "type": "Asset",
+        "createdAt": "2020-06-17T03:49:50.233Z",
+        "updatedAt": "2020-06-17T21:55:01.777Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2020-06-17T21:55:01.777Z",
+        "firstPublishedAt": "2020-06-17T21:55:01.777Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "Zachary Weston"
+        },
+        "description": {
+          "en-NZ": "Intern"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/hQkk0WCSR1Bbt0jHUT2TW/160883a328c1d3b36a6be2649e629953/zachary.jpeg",
+            "details": {
+              "size": 201286,
+              "image": {
+                "width": 1080,
+                "height": 1079
+              }
+            },
+            "fileName": "zachary.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "id": "1j84F2t7lySaAtvJbvTBsR",
+        "type": "Asset",
+        "createdAt": "2020-06-17T22:00:34.361Z",
+        "updatedAt": "2020-06-19T03:07:02.453Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2020-06-19T03:07:02.453Z",
+        "firstPublishedAt": "2020-06-17T22:00:50.989Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-NZ": "yixuan"
+        },
+        "file": {
+          "en-NZ": {
+            "url": "//images.ctfassets.net/rzbl2ci9toyi/1j84F2t7lySaAtvJbvTBsR/b5e212fca905e24cf67144e7e399bd5e/Screen_Shot_2020-06-19_at_3.06.36_PM.png",
+            "details": {
+              "size": 174969,
+              "image": {
+                "width": 471,
+                "height": 234
+              }
+            },
+            "fileName": "Screen Shot 2020-06-19 at 3.06.36 PM.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (New Zealand)",
+      "code": "en-NZ",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "4XlJj434uTQxksfEasjTVJ",
+        "version": 2,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7HrXscnUXEV66KWYMkCzZm"
+          }
+        },
+        "createdAt": "2020-06-11T23:38:54Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedAt": "2020-06-12T04:08:00Z"
+      }
+    },
+    {
+      "name": "English",
+      "code": "en",
+      "fallbackCode": "en-NZ",
+      "default": false,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "1Y4gR17GoiM52wMEt99UCd",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rzbl2ci9toyi"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "createdAt": "2020-06-12T04:08:10Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1al4LgLAI2CjbKJ0kSMcLO"
+          }
+        },
+        "updatedAt": "2020-06-12T04:08:10Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+  ]
+}

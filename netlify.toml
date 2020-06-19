@@ -1,0 +1,22 @@
+[build]
+  base = ""
+  command = "yarn prodbuild"
+  publish = "build"
+ 
+
+# [context."release/staging"]
+[context.production]
+  # command = "yarn prodbuild"
+
+# Use _headers or _redirects files for context-specific redirects.
+[[redirects]]
+  # React routing
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[plugins]]
+  package = "netlify-plugin-a11y"
+  [plugins.inputs]
+    checkPaths = ["", "static"] 
+  
