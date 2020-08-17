@@ -6,6 +6,13 @@ We built the site using React, Netlify (CI/CD, hosting), Material UI, Cypress (i
 
 We’ve open-sourced our code and provided info around the tools, so that others may benefit from our experience creating a simple, accessible website. It is intended as a starting point for your own journey.
 
+This document is primarily focussed on steps necessary to get the example website up and running.The dominant technologies in use are [React's Material-UI](https://material-ui.com) framework, 
+[Contentful CMS](https://www.contentful.com), and [Netlify](https://www.netlify.com) hosting platform.
+
+![Overview](./docs/architecture.svg)
+
+_N.B. Diagrams are editable (draw.io) SVG files located in `/docs`_
+
 ## Creating sites everyone can access is important ##
 
 Around 1.3 billion people live with access needs around the world, and despite making up a major portion of the global population, access citizens face immense barriers in their day-to-day lives. We’re disabling citizens further when we don’t design access into our technology. 
@@ -15,13 +22,6 @@ Not only is the app we built accessible to everyone, but people with access need
 When we started on the journey to create an accessibility-first site, we explored web development platforms such as Webflow, as using platforms such as these can considerably speed up development time and lower costs. We quickly found that when we delved into them, none are able to provide an optimal usability experience, particularly with screen readers. 
 
 Feel free to use our code for your own projects, and if you have any questions, please [let us know](mailto:info@propellerhead.co.nz)!
-
-This document is primarily focussed on steps necessary to get the example website up and running.The dominant technologies in use are [React's Material-UI](https://material-ui.com) framework, 
-[Contentful CMS](https://www.contentful.com), and [Netlify](https://www.netlify.com) hosting platform.
-
-![Overview](./docs/architecture.svg)
-
-_N.B. Diagrams are editable (draw.io) SVG files located in `/docs`_
 
 ## Getting Started ##
 
