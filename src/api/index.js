@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect  } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
 import { createClient } from 'contentful';
 
@@ -111,7 +111,7 @@ const pubApi = createClient({
     space: config.contentful.spaceId,
     environment: config.contentful.environment,
     accessToken: config.contentful.deliveryToken,
-    host: 'https://cdn.contentful.com', 
+    host: 'https://cdn.contentful.com',
     removeUnresolved: true
 })
 

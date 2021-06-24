@@ -22,14 +22,15 @@ const prodCfg = {
     },
 };
 
-const config = process.env.REACT_APP_STAGE === 'production' ? prodCfg : devCfg;
+const hook = process.env.REACT_APP_STAGE === 'production' ? prodCfg : devCfg;
 
-export default {
+const config = {
     // merge environment-specifc config
-    ...config,
+    ...hook,
     siteName: 'Propellerhead',
     contentful: {
         spaceId: 'qc07v8cngk18',
-        ...config.contentful,
+        ...hook.contentful,
     },
 };
+export default config;
