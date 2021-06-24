@@ -118,4 +118,3 @@ Test results will be shown in the console. These results can also be found in th
 Further reading: 
   - https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html
   - https://docs.cypress.io/guides/references/best-practices.html
-# onRoute
