@@ -1,47 +1,61 @@
-import { ttNorms, ttNormsBold, ttNormsItalic, ttNormsBoldItalic } from './typography';
 import { color } from './palette';
+import { Roboto, RobotoReg, Robot0Bold, RobotoItalics, RobotoBoldItalics } from './typography';
 
-export default {
+export const overrides = {
     MuiCssBaseline: {
         '@global': {
-            '@font-face': [ttNorms, ttNormsBold, ttNormsItalic, ttNormsBoldItalic],
+            '@font-face': [Roboto, RobotoReg, Robot0Bold, RobotoItalics, RobotoBoldItalics],
         }
     },
-    MuiAppBar: {
-        colorDefault: {
+    MuiCard: {
+        root: {
             backgroundColor: color.white,
         }
-    },
-    MuiLink: {
-        root: {
-            fontWeight: 700,
-        },
     },
     MuiPaper: {
         root: {
             backgroundColor: color.white,
         },
         elevation1: {
-            boxShadow: `-8px 8px 6px -6px ${color.lightGrey}`
+            boxShadow: `0px 3px 10px ${'rgba(184,184,184, 0.2)'}`
+        },
+        elevation2: {
+            boxShadow: `0px 3px 10px ${'rgba(184,184,184, 0.5)'}`
         },
     },
-    MuiCardActionArea: {
-        root: {
-            height: '100%'
-        },
-    },
+
     MuiButton: {
         root: {
-            fontSize: '1rem',
-            fontWeight: 700,
+            fontSize: '1.125rem',
+            lineHeight: '1.3125rem',
         },
         contained: {
             boxShadow: 'none',
+            borderRadius: '0.15rem',
+            lineHeight: '2rem',
+            fontSize: '1.125rem',
+            paddingLeft: '2rem',
+            paddingRight: '2rem',
         },
+        outlined: {
+            paddingLeft: '2rem',
+            paddingRight: '2rem',
+            borderRadius: '0.15rem',
+        }
     },
-    MuiTypography: {
-        gutterBottom: {
-            marginBottom: '1rem',
-        },
+
+    MuiOutlinedInput: {
+        root: {
+            borderRadius: '0.25rem',
+            background: color.white,
+            color: color.grey,
+        }
+    },
+    MuiInputLabel: {
+        root: {
+            color: color.grey,
+            fontSize: '0.9rem',
+
+        }
     },
 }

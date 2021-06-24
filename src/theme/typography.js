@@ -1,42 +1,51 @@
-import TTNormsBold from './TTNorms-Bold.woff2';
-import TTNormsBoldItalic from './TTNorms-BoldItalic.woff2';
-import TTNormsItalic from './TTNorms-Italic.woff2';
-import TTNormsRegular from './TTNorms-Regular.woff2';
+import RobotoBold from './Roboto-Bold.ttf';
+import RobotoBoldItalic from './Roboto-BoldItalic.ttf';
+import RobotoItalic from './Roboto-Italic.ttf';
+import RobotoMedium from './Roboto-Medium.ttf';
+import RobotoRegular from './Roboto-Regular.ttf';
 
-export const ttNorms = {
-    fontFamily: 'TTNorms',
+export const Roboto = {
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    fontDisplay: 'swap',
+    fontWeight: 500,
+    src: `local('Roboto'), local('Roboto-Medium'), url(${RobotoMedium}) format('woff2')`,
+};
+
+export const RobotoReg = {
+    fontFamily: 'Roboto',
     fontStyle: 'normal',
     fontDisplay: 'swap',
     fontWeight: 400,
-    src: `local('TTNorms'), local('TTNorms-Regular'), url(${TTNormsRegular}) format('woff2')`,
+    src: `local('Roboto'), local('Roboto-Regular'), url(${RobotoRegular}) format('woff2')`,
 };
 
-export const ttNormsBold = {
-    fontFamily: 'TTNorms',
+export const Robot0Bold = {
+    fontFamily: 'Roboto',
     fontStyle: 'normal',
     fontDisplay: 'swap',
     fontWeight: 700,
-    src: `local('TTNorms'), local('TTNorms-Bold'), url(${TTNormsBold}) format('woff2')`,
+    src: `local('Roboto'), local('Roboto-Bold'), url(${RobotoBold}) format('woff2')`,
 };
 
-export const ttNormsItalic = {
-    fontFamily: 'TTNorms',
+export const RobotoItalics = {
+    fontFamily: 'Roboto',
     fontStyle: 'italic',
     fontDisplay: 'swap',
     fontWeight: 400,
-    src: `local('TTNorms'), local('TTNorms-Italic'), url(${TTNormsItalic}) format('woff2')`,
+    src: `local('Roboto'), local('Roboto-Italic'), url(${RobotoItalic}) format('woff2')`,
 };
 
-export const ttNormsBoldItalic = {
-    fontFamily: 'TTNorms',
+export const RobotoBoldItalics = {
+    fontFamily: 'Roboto',
     fontStyle: 'italic',
     fontDisplay: 'swap',
     fontWeight: 700,
-    src: `local('TTNorms'), local('TTNorms-BoldItalic'), url(${TTNormsBoldItalic}) format('woff2')`,
+    src: `local('Roboto'), local('Roboto-BoldItalic'), url(${RobotoBoldItalic}) format('woff2')`,
 };
 
-export default {
-    fontFamily: "'TTNorms', sans-serif",
+export const typography = {
+    fontFamily: "'Roboto', sans-serif",
     fontSize: 16,
     root: {},
 
@@ -44,25 +53,25 @@ export default {
 
     // Hero headline, Article title
     h1: {
-        fontWeight: 400,
-        fontSize: '2.8125rem',
+        fontWeight: 600,
+        fontSize: '4rem',
         lineHeight: 1.2,
-        fontFamily: 'TTNorms',
+        fontFamily: 'Roboto',
     },
-    // Snippet, Section, CardGrid title
+    // Snippet, Section, LayoutGrid title
     h2: {
-        fontWeight: 700,
-        fontSize: '1.875rem',
+        fontWeight: 500,
+        fontSize: '3.5rem',
         lineHeight: 1.20,
-        fontFamily: 'TTNorms',
+        fontFamily: 'Roboto',
         letterSpacing: '0.01em',
     },
     // Snippet teaser, card title
     h3: {
-        fontWeight: 700,
-        fontSize: '1.5rem',
+        fontWeight: 500,
+        fontSize: '2.5rem',
         lineHeight: 1.20,
-        fontFamily: 'TTNorms',
+        fontFamily: 'Roboto',
         letterSpacing: '0.01em',
     },
     // Profile name
@@ -70,7 +79,7 @@ export default {
         fontWeight: 700,
         fontSize: '1.25rem',
         lineHeight: 1.20,
-        fontFamily: 'TTNorms',
+        fontFamily: 'Roboto',
         letterSpacing: '0.01em',
     },
     // Hero copy
@@ -78,41 +87,42 @@ export default {
         fontWeight: 400,
         fontSize: '1.125rem',
         lineHeight: 1.5,
-        fontFamily: 'TTNorms',
+        fontFamily: 'Roboto',
+        paddingTop: '1rem'
     },
     // Header brand text
     h6: {
         fontWeight: 400,
-        fontSize: '0.9rem',
+        fontSize: '1.08rem',
         lineHeight: 1.3,
-        fontFamily: 'TTNorms',
+        fontFamily: 'Roboto',
     },
     // Hero brand text, Article pullQuote
     subtitle1: {
         fontWeight: 400,
-        fontSize: '1.5rem',
+        fontSize: '1.3125rem',
         lineHeight: 1.5,
-        fontFamily: 'TTNorms',
+        fontFamily: 'Roboto',
         letterSpacing: '0.005em',
     },
     // Article author
     subtitle2: {
-        fontWeight: 700,
+        fontWeight: 400,
         fontSize: '1rem',
         lineHeight: 1.5,
-        fontFamily: 'TTNorms',
+        fontFamily: 'Roboto',
     },
     // General body text outside markdown
     body1: {
         fontWeight: 400,
         fontSize: '1rem',
         lineHeight: 1.5,
-        fontFamily: 'TTNorms',
+        fontFamily: 'Roboto',
     },
     button: {
-        fontWeight: 400,
-        fontSize: '0.9rem',
-        fontFamily: 'TTNorms',
-        textTransform: 'none'
+        fontWeight: 500,
+        fontSize: '0.75rem',
+        fontFamily: 'Roboto',
+        textTransform: 'none',
     },
 };

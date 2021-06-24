@@ -21,7 +21,7 @@ export const Notifier = ({ notification }) => {
     return (
         <Snackbar open={alert} autoHideDuration={6000} onClose={closeAlert}>
             <Alert elevation={6} variant="filled" severity="error" onClose={closeAlert}>
-                {notification.msg}
+                {/* {notification.msg} */}
             </Alert>
         </Snackbar>
     );
