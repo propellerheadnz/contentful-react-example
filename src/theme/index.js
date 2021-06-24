@@ -1,14 +1,14 @@
-import palette from './palette';
-import typography from './typography';
-import overrides from './overrides';
-import props from './props';
+import { overrides } from './overrides';
+import { palette } from './palette';
+import { typography } from './typography';
 
-export default {
+export const theme = {
     palette,
     typography,
     overrides,
     shape: {
         borderRadius: 0
     },
-    props
-};
+}
+
+export default theme;

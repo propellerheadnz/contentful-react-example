@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
-import clsx from 'clsx';
-import { Link as RouterLink, useLocation } from 'react-router-dom';
+
 import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Hidden from '@material-ui/core/Hidden';
+import IconButton from '@material-ui/core/IconButton';
+import Link from '@material-ui/core/Link';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import IconButton from '@material-ui/core/IconButton';
+import { makeStyles } from '@material-ui/core/styles';
+import Toolbar from '@material-ui/core/Toolbar';
+import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import MenuIcon from '@material-ui/icons/Menu';
-import Link from '@material-ui/core/Link';
-import { HomeIcon } from '../../icons/HomeIcon';
+import clsx from 'clsx';
+import { Link as RouterLink, useLocation } from 'react-router-dom';
+
 import { useStore } from '../../api';
+import { HomeIcon } from '../../icons/HomeIcon';
 
 const useStyles = makeStyles(theme => ({
     spacer: {
@@ -55,7 +57,17 @@ const useStyles = makeStyles(theme => ({
         },
     },
     detailMenu: {
-        background: theme.palette.background.default,
+        background: theme.palette.primary.main,
+        '& svg': {
+            fill: theme.palette.text.secondary,
+        },
+        '& h6, & a': {
+            color: theme.palette.text.secondary,
+            '&:hover': {
+                borderBottomColor: theme.palette.text.secondary,
+
+            },
+        },
     },
     offset: theme.mixins.toolbar,
 }));
@@ -80,6 +92,8 @@ export const Header = (props) => {
     if (props.title) {
         level = (props.title.match(/\//g) || []).length;
     }
+
+
 
     return (<>
         <OnScroll props={{ ...props, level }}>

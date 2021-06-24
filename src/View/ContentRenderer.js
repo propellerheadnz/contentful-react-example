@@ -18,12 +18,13 @@ export const ContentRenderer = ({ content }) => {
 
     // block background
     let bg = 'inherit';
+
     const background = (block) => {
         switch (block.sys.contentType.sys.id) {
             case 'assembly':
                 return { background: block.fields.style };
             case 'snippet':
-                bg = block.fields.style || (bg ? null : theme.palette.background.paper);
+                bg = block.fields.style || (bg ? null : theme.palette.background.paper.default);
                 return { background: bg };
             default:
                 return {};

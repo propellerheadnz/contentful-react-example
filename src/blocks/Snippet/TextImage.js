@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import RemoveIcon from '@material-ui/icons/Remove';
 import ReactMarkdown from 'react-markdown';
 
 import ActionLink from '../../components/ActionLink';
@@ -51,7 +50,6 @@ export const TextImage = ({ content }) => {
 
             <Grid item xs={12} sm={6} md={6}>
                 <Typography className={classes.title} variant="h2">{content.fields.title}</Typography>
-                <RemoveIcon className={classes.underline} fontSize="large" />
                 <ReactMarkdown className={classes.copy} renderers={Markdown.renderers}>
                     {content.fields.copy}
                 </ReactMarkdown>
