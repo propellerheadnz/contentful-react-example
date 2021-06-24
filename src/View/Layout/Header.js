@@ -1,21 +1,20 @@
 import React, { useState } from 'react';
-
-import AppBar from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
-import Hidden from '@material-ui/core/Hidden';
-import IconButton from '@material-ui/core/IconButton';
-import Link from '@material-ui/core/Link';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
-import { makeStyles } from '@material-ui/core/styles';
-import Toolbar from '@material-ui/core/Toolbar';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import MenuIcon from '@material-ui/icons/Menu';
 import clsx from 'clsx';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
-
-import { useStore } from '../../api';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import useScrollTrigger from '@material-ui/core/useScrollTrigger';
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import Hidden from '@material-ui/core/Hidden';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import Link from '@material-ui/core/Link';
 import { HomeIcon } from '../../icons/HomeIcon';
+import { useStore } from '../../api';
+
 
 const useStyles = makeStyles(theme => ({
     spacer: {
@@ -52,47 +51,16 @@ const useStyles = makeStyles(theme => ({
             color: theme.palette.text.secondary,
             '&:hover': {
                 borderBottomColor: theme.palette.text.secondary,
-
             },
         },
     },
     detailMenu: {
-        background: theme.palette.primary.main,
-        '& svg': {
-            fill: theme.palette.text.secondary,
-        },
-        '& h6, & a': {
-            color: theme.palette.text.secondary,
-            '&:hover': {
-                borderBottomColor: theme.palette.text.secondary,
-
-            },
-        },
+        background: theme.palette.background.default,
     },
     offset: theme.mixins.toolbar,
 }));
-
 export const Header = (props) => {
-    const classes = useStyles();
-    const [anchorEl, setAnchorEl] = useState(null);
-    const selected = useLocation().pathname.split("/")[1];
-
-    const { contentStore } = useStore();
-    const { menu } = contentStore.useMenu();
-
-    const openMenu = (event) => {
-        setAnchorEl(event.currentTarget);
-    };
-
-    const closeMenu = () => {
-        setAnchorEl(null);
-    };
-
-    let level = 0;
-    if (props.title) {
-        level = (props.title.match(/\//g) || []).length;
-    }
-
+    level = (props.title.match(/\//g) || []).length;
 
 
     return (<>

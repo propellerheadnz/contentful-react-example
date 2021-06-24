@@ -1,25 +1,35 @@
+import { enums } from '@optimizely/react-sdk'
+
 const devCfg = {
     contentful: {
         environment: 'dev',
         //use export terminal function to assign your tokens to the following vars
-        deliveryToken: 'BcZqu0UVFMTBIkO4GKapf87NuyA8vriIwA1U2av33OA',
-        previewToken: '62SgOzhBdmT16XKwEKX6iKbKtYNr89cz-tzHbnDS24I',
+        deliveryToken: process.env.REACT_APP_CF_DELIVERY_TOKEN,
+        previewToken: process.env.REACT_APP_CF_PREVIEW_TOKEN,
     },
     ga: {
         code: 'UA-00000000-0'
     },
+    optimizely: {
+        key: 'Your optimizely token',
+        loglevel: enums.LOG_LEVEL.INFO
+    }
 };
 
 const prodCfg = {
     contentful: {
         environment: 'master',
         // set these environment vars on Netlify
-        deliveryToken: 'KI_NF_aMIO6ibxubELH8cUbJsonyDUrS1I5jUaMoEgg',
-        previewToken: 'GxZ7XkyOuu9NSLGoEhp1ppwzTD-fwboeV9_41RPnTjs',
+        deliveryToken: process.env.REACT_APP_CF_DELIVERY_TOKEN,
+        previewToken: process.env.REACT_APP_CF_PREVIEW_TOKEN,
     },
     ga: {
         code: 'UA-000000000-1'
     },
+    optimizely: {
+        key: 'Your optimizely token',
+        loglevel: enums.LOG_LEVEL.NOTSET
+    }
 };
 
 const config = process.env.REACT_APP_STAGE === 'production' ? prodCfg : devCfg;
@@ -29,7 +39,7 @@ export default {
     ...config,
     siteName: 'Propellerhead',
     contentful: {
-        spaceId: 'qc07v8cngk18',
+        spaceId: 'Your space ID',
         ...config.contentful,
     },
 };
